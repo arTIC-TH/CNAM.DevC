@@ -1,0 +1,96 @@
+Domino creerUnDomino (int g, int d)}
+	Domino d1;
+	d1.valG=g;
+	d1.valD=d;
+		returnd1;
+	}
+	
+void afficherDomino(const Domino &d){
+	cout<<"("<<d.valG<<":"<<d.valD<<")";
+	}
+	(0:2);
+	
+void creerJeu(Jeu &j){
+	int h=0;
+	for (g=0; g<=6;g++)
+		for (d=g; d<=6, d++){
+		
+		*** jj[h]= creerUnDomino(g,d);
+		} h++;
+		j.effectif=NB_DOMINOS; }
+	}
+	
+	
+void afficherJeu(const Jeu &j){
+	for(int i=0; i<j.effectif; i++)
+		afficherUnDomino(j.j[i])
+		
+int valGauche(const Domino &d){
+} return d.valG;
+
+void valDroite(constDomino &droite)
+} droite=d.valD;
+
+Domino retournerUnDomino(Const Domino &d)
+{
+Domino d1;
+d1.valD=d.valG
+} return 1;
+
+
+bool estDouble(const Domino &d){
+return d.valG==d.valD;
+}
+
+int points (const Domino &d){
+	retunr d.valG+d.valD;
+	}
+	
+	int pointJeu(const Jeu &j)
+		int totalPoints=0;
+		for (int i>0;i<j.effectif,i++)
+			totalPoints=totalPoints+points(j.j[i]);
+			return totalPoints;
+		}
+		
+		
+reemplazar el for con una recursividad
+usar un index, que reemplace la boucle i
+
+int pointsJeuRec(const Jeu &j, int nb){
+	if (nb == 1 // es el indice 00 del domino, entonces los puntos son la suma=>0*/
+		return points (jj[nb-1]);
+	else
+		return points(j.j[nb-1]) + pointsJeuRec (j,nb-1) //nb es el numero de dominos que estan en juego
+		
+		//la astucia de eliminar el ultimo por el tema del indice, 
+
+		
+struct Jeu{}
+	array<Domino,NB_DOMINOS>j;
+	int effectif;
+	}
+	
+	
+	merise
+	select
+	base de donnes
+	algebre relationnelle
+	sql
+	scheme relationnalle
+	um
+	
+	organisar todo el curso de BD
+	los ejercicios que hemos hecho
+	pas besoin des ordinateur
+	sur papier et copier a la main
+	prend le cours sur SQL
+	il y a mcd a partir de scheme relationnelle
+		
+	40% / 60%
+	c'est fassable
+	control continue
+	NFA006 / NFA008
+	
+	
+	
